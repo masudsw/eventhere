@@ -1,0 +1,107 @@
+// const Navbar = () => {
+//     return (
+//         <div>
+
+//             {/* --------------------------- */}
+//             <div className="navbar bg-base-100">
+//                 <div className="navbar-start">
+//                     <div className="dropdown">
+//                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+//                             <svg
+//                                 xmlns="http://www.w3.org/2000/svg"
+//                                 className="h-5 w-5"
+//                                 fill="none"
+//                                 viewBox="0 0 24 24"
+//                                 stroke="currentColor">
+//                                 <path
+//                                     strokeLinecap="round"
+//                                     strokeLinejoin="round"
+//                                     strokeWidth="2"
+//                                     d="M4 6h16M4 12h8m-8 6h16" />
+//                             </svg>
+//                         </div>
+//                         <ul
+//                             tabIndex={0}
+//                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+//                             <li><a>Create Event</a></li>
+                            
+//                             <li><a>About</a></li>
+//                         </ul>
+//                     </div>
+
+//                     <a className="btn btn-ghost text-xl">EventsHere</a>
+//                     {/* ------------ */}
+//                     <div class="flex items-center border border-gray-300 rounded-full overflow-hidden">
+//                         {/* <!-- Left Text Box with Search Icon --> */}
+//                         <div class="flex items-center bg-white px-3 rounded-l-md">
+//                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+//                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a7 7 0 017 7 7 7 0 01-1.163 3.874l4.57 4.57a1 1 0 01-1.415 1.415l-4.57-4.57A7 7 0 1111 4z"></path>
+//                             </svg>
+//                             <input
+//                                 type="text"
+//                                 placeholder="Search"
+//                                 class="outline-none py-2 px-3 w-full rounded-l-md focus:ring-0"
+//                             />
+//                         </div>
+
+//                         {/* <!-- Black Divider Line --> */}
+//                         <div class="h-full w-px bg-black-900"></div>
+
+//                         {/* <!-- Right Text Box with Location Icon --> */}
+//                         <div class="flex items-center bg-white px-3 rounded-r-md">
+
+//                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+//                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2C8.686 2 6 4.686 6 8c0 3.866 4.1 10.314 5.482 12.39a1 1 0 001.636 0C13.9 18.314 18 11.866 18 8c0-3.314-2.686-6-6-6zm0 9a3 3 0 110-6 3 3 0 010 6z"></path>
+//                             </svg>
+//                             <input
+//                                 type="text"
+//                                 placeholder="Location"
+//                                 class="outline-none py-2 px-3 w-full rounded-r-md focus:ring-0"
+//                             />
+//                         </div>
+//                         <button>
+//                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-red-500 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+//                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a7 7 0 017 7 7 7 0 01-1.163 3.874l4.57 4.57a1 1 0 01-1.415 1.415l-4.57-4.57A7 7 0 1111 4z"></path>
+//                             </svg>
+//                         </button>
+//                     </div>
+//                     {/* ------------- */}
+//                 </div>
+//                 <div className="navbar-center hidden lg:flex">
+
+//                     <ul className="menu menu-horizontal px-1">
+//                         <li><a>Create Event</a></li>
+                        
+//                         <li><a>About Us</a></li>
+//                     </ul>
+//                 </div>
+//                 <div className="navbar-end">
+//                     <div className="dropdown dropdown-end">
+//                         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
+//                             <div className="w-10 rounded-full">
+//                                 <img
+//                                     alt="Tailwind CSS Navbar component"
+//                                     src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+//                             </div>
+//                         </div>
+//                         <ul
+//                             tabIndex={0}
+//                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+//                             <li>
+//                                 <a className="justify-between">
+//                                     Profile
+//                                     <span className="badge">New</span>
+//                                 </a>
+//                             </li>
+//                             <li><a>Settings</a></li>
+//                             <li><a>Logout</a></li>
+//                         </ul>
+//                     </div>
+//                 </div>
+//             </div>
+//             {/* ------------------------------ */}
+
+
+//         </div>
+//     );
+// };
